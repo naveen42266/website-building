@@ -14,7 +14,7 @@ const CanvasElement: React.FC<DraggableElementProps> = ({
     element, 
     isSelected, 
     onClick, 
-    onUpdate, 
+    // onUpdate, 
     onDelete 
 }) => {
     const [{ isDragging }, drag] = useDrag({

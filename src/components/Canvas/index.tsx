@@ -9,7 +9,7 @@ const Canvas: React.FC<CanvasProps> = ({
     selectedElement,
     canvasWidth,
     canvasHeight,
-    selectedTemplate,
+    // selectedTemplate,
     setSelectedElement,
     updateElement,
     deleteElement,
