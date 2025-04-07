@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.bgImg{
+  background-image: url(https://static.vecteezy.com/system/resources/previews/035/509/867/large_2x/ai-generated-food-waste-still-life-as-a-concept-of-healthy-nutrition-free-photo.jpg);
+}
