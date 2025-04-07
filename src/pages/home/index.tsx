@@ -1,27 +1,3 @@
-// import React from 'react';
-// import { BuilderProvider } from '../../contexts/BuilderContext';
-// import Toolbox from '../../components/Toolbox';
-// import Canvas from '../../components/Canvas';
-// import PropertyPanel from '../../components/PropertyPanel';
-
-
-// const Home: React.FC = () => {
-//     return (
-//         <BuilderProvider>
-//             <div style={{ display: 'flex', gap: '20px' }}>
-//                 <Toolbox />
-//                 <Canvas />
-//                 <PropertyPanel />
-//             </div>
-//         </BuilderProvider>
-//     );
-// };
-
-
-// export default Home;
-
-
-
 import React, { useState, useRef, useEffect } from 'react';
 import { DndProvider, useDrag, useDrop } from 'react-dnd';
 import { HTML5Backend } from 'react-dnd-html5-backend';
